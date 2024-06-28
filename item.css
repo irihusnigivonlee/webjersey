@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald;
+}
+.navbar-utama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid silver;
+}
+
+.home-utama {
+  text-align: right;
+  margin-right: 0;
+}
+.navbar-row {
+  display: flex;
+}
+.kop {
+  width: 3.5rem;
+  top: 0;
+  background-color: ;
+  padding-right: 7px;
+}
+.web {
+  background-color: green;
+  display: flex;
+  justify-content: center; /* Untuk mengatur konten di tengah secara horizontal */
+  align-items: center; /* Untuk mengatur konten di tengah secara vertikal */
+  min-height: 100vh; /* Mengatur tinggi minimum body agar sama dengan tinggi viewport */
+  margin: 0; /* Menghilangkan margin default pada body */
+}
+
+.row {
+  display: flex;
+  margin-top: 3.8rem;
+  justify-content: center; /* Untuk mengatur konten di tengah secara horizontal */
+  width: 100%; /* Mengatur lebar container agar mengambil seluruh lebar layar */
+}
+
+.gallery {
+  margin: 1rem;
+  margin-left: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.bilik-toko:hover {
+  border-color: rgb(26, 235, 8);
+}
+
+.bilik-toko {
+  margin-top: 30rem;
+  display: grid;
+  height: 36rem;
+  border: 3px solid silver;
+  background-color: rgb(219, 38, 6);
+  border-radius: 14px;
+  place-content: center;
+  max-width: 350px; /* Lebar maksimal konten */
+  width: 100%; /* Agar konten mengambil seluruh lebar container */
+  margin: 15px 4px; /* Margin kiri dan kanan untuk memberikan ruang */
+  padding: 20px; /* Padding untuk konten */
+  box-sizing: border-box; /* Untuk memastikan padding termasuk dalam ukuran elemen */
+}
+
+.cart-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.total-price {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.stars {
+  margin-left: 7px;
+}
+.spec {
+  margin-left: 7px;
+  margin-right: 11px;
+  padding: 0 0.3rem;
+}
+.harga {
+  text-align: right;
+  margin-right: 12px;
+}
+.bilik-toko img {
+  margin-left: 7px;
+  display: flex;
+  width: 100%;
+}
+.modal-title {
+  text-align: justify;
+  margin-top: 4rem;
+}
+.item-detail-button {
+  font-size: larger;
+  font: 100;
+  font-style: italic;
+}
+.item-detail-button a {
+  color: rgba(246, 247, 242, 0.7);
+}
+.button-tombol {
+  display: flex;
+}
+.item-detail-button {
+  color: rgb(14, 12, 12);
+  top: 0.4rem;
+  padding: 0.7rem;
+}
+.add-to-cart {
+  margin-left: 7px;
+}
+.lihat-cart {
+  margin-left: 7px;
+  margin-right: 12px;
+}
+.modal-footer {
+  display: inline-block;
+  justify-content: center;
+}
+
+.modal {
+  margin-top: 27px;
+}
+.shopee {
+  background-color: yellow;
+  border-radius: 12px;
+  padding: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 1.2rem;
+  margin-bottom: 0;
+}
+.main {
+  text-align: center;
+}
+
+.marq {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  border-radius: 0px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+  color: white;
+}
+
+.tips {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-family: oswald;
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: rgb(8, 239, 247);
+  font-family: sans-serif;
+}
+
+.btn-order {
+  background-color: rgb(8, 239, 247);
+  border: 1px solid #9c8c8c;
+  border-radius: 15px;
+  color: #000;
+  padding-top: 0.4;
+  padding-bottom: 0.4;
+  font-size: 12px;
+  margin: 10px;
+}
+.home {
+  text-align: center;
+}
+.btn-order:hover {
+  background-color: #d8e705;
+  color: #1a5a06;
+}
+
+.modal-dialog {
+  margin-top: 2.6rem;
+}
+.carousel-control-prev {
+  margin-top: 40rem;
+}
+.carousel-control-next {
+  margin-top: 40rem;
+}
+.modal-title {
+  margin-top: 1px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen(max-width:480px) {
+}
