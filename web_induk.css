@@ -1,0 +1,172 @@
+body {
+  margin: 0.1rem;
+  padding: 0.1rem;
+  font-family: Arial, sans-serif;
+  background-color: rgb(36, 2, 2);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 50rem;
+}
+.container-web {
+  width: 130rem;
+}
+.slide {
+  width: 130rem;
+}
+.sidebar {
+  width: 130rem;
+  height: 85vh;
+  /* border: 1px solid black; */
+  /* background-color: lightslategray; */
+}
+.background-container {
+  position: relative;
+  background-image: url("timnas1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110vh; /* Full height */
+  justify-content: center;
+  align-items: center;
+  top: 1rem;
+  border-radius: 12px;
+}
+.channel {
+  margin-left: 1.5rem;
+  margin-top: -0.3rem;
+}
+.channel a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: black;
+  border-bottom: 3px solid silver;
+  border-radius: 5px;
+  padding: 0 25px;
+}
+
+.text-overlay {
+  position: absolute;
+  color: rgb(14, 13, 13);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: left;
+  background-color: transparent; /* Set background to transparent */
+  padding: 20px;
+  border-radius: 10px;
+}
+.text-overlay a {
+  text-decoration: none;
+  list-style-type: none;
+  color: red;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+p {
+  margin: 10px 0 0;
+  font-size: 1.5em;
+}
+.carousel {
+  width: 100%;
+  height: 60vh; /* Set the height of the carousel */
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 59vh;
+  object-fit: cover; /* Ensure images cover the carousel area */
+}
+/* .cod{
+    margin-top: 16rem;
+    
+} */
+.form-group {
+  padding-left: 1.1rem;
+  display: inline-block;
+  width: 17rem;
+}
+.btn {
+  margin-left: 1.1rem;
+}
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+/* VIDEO */
+.video {
+  justify-content: center;
+  max-width: 200px;
+  padding: 0 2.5rem;
+  padding-left: 1rem;
+  padding-top: 27rem;
+  border-radius: 12rem;
+}
+.video video {
+  max-width: 180px;
+  border-radius: 14px;
+  border: 3px solid silver;
+  padding: 2px;
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
+    color: rgba(241, 239, 239, 0.719);
+  }
+}
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+.marquee {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 1rem 0;
+  background-color: rgba(10, 10, 10, 0.376);
+}
+.home {
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: red;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  border: 1px solid greenyellow;
+  background-color: rgba(6, 22, 195, 0.444);
+  border-radius: 4px;
+  padding: 0 3px;
+  font-size: 20px;
+  position: sticky;
+  bottom: 5px;
+}
+.home a {
+  list-style-type: none;
+  text-decoration: none;
+  color: greenyellow;
+}
+.cod {
+  color: black;
+  font-size: 20px;
+}
