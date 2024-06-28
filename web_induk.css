@@ -45,7 +45,7 @@ body {
   background-color: black;
   border-bottom: 3px solid silver;
   border-radius: 5px;
-  padding: 0 3px;
+  padding: 0;
 }
 
 .text-overlay {
